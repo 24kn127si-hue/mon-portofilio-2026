@@ -84,3 +84,49 @@ a.active {
 a.active::after {
     width: 100%;
 }
+.hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: srem;
+    text-align: center;
+
+}
+.hero-section img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 8pxsold;var(--violet-doux);
+}
+.hero-section h1 {
+    color: var(--viollet-fonce);
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 1.2rem;
+}
+.hero-section p {
+    color: var(--gris-fonce);
+    font-size: 1.3rem;
+    margin-bottom: 1.2rem;
+
+}
+.hero-section a {
+    text-decoration: none;
+    font-display: inline-block;
+    background-color: var(--viollet-doux);
+    color: white;
+    padding: 15px 30px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    letter-spacing: 1.1px;
+    font-weight: 600;
+    margin-top: 1rem;
+    transition: background-color 0.3s ease,transfom 0.2s ease;
+
+}
+.hero-section a :hover {
+    background-color: var(--gris-tres-fonce);
+    transform: translate(-3px);
+
+}
